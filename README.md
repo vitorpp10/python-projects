@@ -2,7 +2,7 @@
 
 <p align="center">
   A collection of <b>Python mini-projects</b> built during my Computer Science learning journey.<br>
-  From algorithms to small utilities — every line of code here represents progress. 🚀
+  From algorithms to small utilities — every line of code here represents progress. 
 </p>
 
 <p align="center">
