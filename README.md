@@ -60,6 +60,19 @@ Focused on **input validation**, **conditionals**, and **arithmetic operations**
 
 ---
 
+## **TryPassMe**
+
+a simple python mini-game to guess the login and password. players have limited tries and get hints.
+
+### features
+
+- guess login and password  
+- limited attempts with hints  
+- clear screen between steps  
+- replay option  
+
+---
+
 ## Future Improvements
 
 - Add a graphical interface using `tkinter` or `customtkinter`
