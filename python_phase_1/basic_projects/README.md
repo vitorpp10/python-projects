@@ -12,25 +12,6 @@
   <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" />
 </p>
 
----
-
-## Project Structure
-
-python-projects/
-│
-├── basic_projects/
-│ │ ├── cpf_algorithm.py
-│ │ ├── cpf_generator.py
-│ │ ├── list_market.py
-│ │ ├── list_market 2.0.py
-│ │ └── mini_calculator.py
-│ │
-│ └── explanations/
-│
-└── README.md
-
-yaml
-Copy code
 
 ---
 
