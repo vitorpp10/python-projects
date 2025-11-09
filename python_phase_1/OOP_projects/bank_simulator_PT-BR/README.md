@@ -40,7 +40,7 @@ def abrir_conta(self, titular, saldo_inicial=0):
     return nova_conta
 ```
 
-3. main.py — User Interface (CLI)
+### 3. `main.py` — User Interface (CLI)
 The entry point of the system. It connects everything through an interactive, text-based interface.
 
 Features:
@@ -117,6 +117,7 @@ Saldo atual de João Silva igual a R$300.00.
 
 Pressione ENTER para voltar ao menu...
 ```
+---
 
 ## Future Improvements
 
