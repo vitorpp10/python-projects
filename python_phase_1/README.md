@@ -112,14 +112,6 @@ python basic_projects/list_market_2_0.py
 
 ## Tech Stack
 
-| Category | Tools / Concepts |
-|-----------|------------------|
-| **Language** | Python 3.x |
-| **IDE** | Visual Studio Code |
-| **Topics Covered** | Loops, Functions, Conditionals, Input/Output, Data Structures, Algorithms |
-
-## Tech Stack
-
 | Category | Concepts / Tools |
 |-----------|------------------|
 | **Language** | Python 3.x |
