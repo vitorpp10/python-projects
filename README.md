@@ -21,9 +21,9 @@ Feel free to explore the projects and track my progress!
 python-projects/
 │
 ├── python_phase_1/          
-│   ├── basic_projects/      
-│   ├── oop_projects/         
-│   └── README.md
+│├── basic_projects/      
+│├── oop_projects/         
+│└── README.md
 │
 ├── python_phase_2/ (planned)  
 ├── python_phase_3/ (planned)  
