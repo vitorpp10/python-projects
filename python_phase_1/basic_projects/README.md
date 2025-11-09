@@ -68,16 +68,6 @@ Logic: two-stack history (undo/redo) with redo cleared after new additions.
 
 ---
 
-## Future Improvements
-
-- Add a graphical interface using `tkinter` or `customtkinter`
-- Integrate database or file saving for persistent data
-- Organize new folders for advanced projects (e.g., `projects_phase_2`, `automation`, etc.)
-
-> ⚙️ *Phase 2 projects will combine **Python + SQL**, focusing on database integration and more advanced logic.*
-
----
-
 ## Tech Stack
 
 | Category | Tools / Concepts |
