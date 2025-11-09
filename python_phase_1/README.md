@@ -1,4 +1,4 @@
-<h1 align="center"> Python Projects — Phase 1</h1>
+<h1 align="center">Python Projects — Phase 1</h1>
 
 <p align="center">
   Early-stage Python portfolio — <b>1 month into the journey</b>, focused on fundamentals, clean code, and developer experience.
@@ -11,23 +11,23 @@
 This repository represents the **first phase** of learning in Python — documenting early projects and a transition toward **Object-Oriented Programming (OOP)**.  
 The goal is to show **clear progression** in code organization, problem-solving, and structure.
 
-It’s designed for:
-- A **minimal and readable UX**
-- **Quick setup** and execution
-- A **simple, scalable structure** as the repository grows
+It’s designed for:  
+- A **minimal and readable UX**  
+- **Quick setup** and execution  
+- A **simple, scalable structure** as the repository grows  
 
 ---
 
 ## Tracks
 
-### 🔹 Basic Projects
-Short, foundational scripts to practice:
-- Logic and control flow
-- User input/output
-- Core data structures (lists, dictionaries, etc.)
+### 🔹 Basic Projects  
+Short, foundational scripts to practice:  
+- Logic and control flow  
+- User input/output  
+- Core data structures (lists, dictionaries, etc.)  
 
-### 🔸 OOP Projects
-Intermediate exercises to explore:
+### 🔸 OOP Projects  
+Intermediate exercises to explore:  
 - Classes and objects  
 - Encapsulation and clean architecture  
 - Reusability and scalability in design  
@@ -48,7 +48,11 @@ python-projects/
 │ └── mini_calculator.py
 │
 ├── oop_projects/
-│ └── (bank_simulator_PT-BR)
+│ └── bank_simulator_PT-BR/
+│ ├── pycache/
+│ ├── account.py
+│ ├── bank.py
+│ └── main.py
 │
 └── README.md
 
@@ -77,7 +81,7 @@ python -m venv .venv
 # Create virtual environment (macOS/Linux)
 python3 -m venv .venv
 source .venv/bin/activate
-▶Run a Project
+Run a Project
 bash
 Copy code
 # Example: run a script from the basic_projects folder
@@ -95,7 +99,6 @@ Learning Status
 Currently in continuous practice and exploration, actively improving through feedback and iteration.
 Phase 1 exists to demonstrate early progress, while building a foundation for more advanced, intermediate work.
 
-
 Tech Stack
 Language: Python 3.x
 
@@ -105,4 +108,4 @@ Environment: Virtualenv (venv)
 
 Tools (planned): pytest, pylint, SQL (SQLite/PostgreSQL), packaging
 
-<p align="center"> 💡 <i>“Small, consistent steps — building strong Python fundamentals.”</i> </p> ```
+<p align="center">💡 <i>“Small, consistent steps — building strong Python fundamentals.”</i></p> ```
