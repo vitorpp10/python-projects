@@ -1,70 +1,14 @@
-<h1 align="center"> Python Projects — Phase 1: OOP Track</h1>
+# Python Bank Simulator — Phase 1
 
-<p align="center">
-  Advanced <b>Object-Oriented Programming (OOP)</b> project built during my Python learning journey.<br>
-  A complete <b>Bank Simulator</b> that applies classes, encapsulation, and interactive CLI design.
-</p>
+### 1. `conta.py` — Conta Bancária  
+Implements the `ContaBancaria` class, representing individual bank accounts.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Paradigm-OOP-orange?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Language-PT--BR-lightgrey?style=for-the-badge" />
-</p>
+**Responsibilities:**
 
----
+- Store account holder and balance
+- Allow deposits and withdrawals with balance checks
 
-## Project Structure
-
-python-projects/
-│
-└── python-phase-1/
-│
-├── oop_projects/
-│ └── bank_simulator_PT-BR/
-│ ├── main.py
-│ ├── bank.py
-│ ├── account.py
-│ └── README.md
-│
-└── basic_projects/
-
-yaml
-Copy code
-
----
-
-## Project: **Bank Simulator (PT-BR)**
-
-An interactive **command-line banking system** designed to simulate basic banking operations — account creation, deposits, withdrawals, and balance checks — all built around **OOP principles**.
-
-This project demonstrates how multiple Python classes can interact to form a complete, modular system with real-world logic.
-
----
-
-## Overview
-
-The **Bank Simulator** is composed of **three Python modules**, each responsible for a specific part of the program:
-
-| File | Role |
-|------|------|
-| `account.py` | Manages individual bank accounts |
-| `bank.py` | Controls the bank system and its accounts |
-| `main.py` | Provides the CLI interface and user experience |
-
----
-
-### **1. account.py** — *Account Logic*
-
-Defines the `ContaBancaria` class, responsible for handling:
-
-- Account creation with a holder name and initial balance  
-- Secure balance management via encapsulation (`_saldo`)  
-- Deposit and withdrawal operations with validation  
-- Formatted balance display  
-
-Example:
+Example method:
 ```python
 def sacar(self, valor):
     if valor > self._saldo:
@@ -72,7 +16,7 @@ def sacar(self, valor):
     else:
         self._saldo -= valor
         print(f"Saque de R${valor:.2f} realizado com sucesso.")
-        
+``````
 
 2. bank.py — Bank Management
 Implements the Banco class — the “manager” that connects users and accounts.
@@ -80,14 +24,12 @@ Implements the Banco class — the “manager” that connects users and account
 Responsibilities:
 
 Create new accounts
-
 Prevent duplicate accounts
-
 Find existing accounts by holder name
 
-Example:
+Example method:
 
-python
+```python
 Copy code
 def abrir_conta(self, titular, saldo_inicial=0):
     if self.buscar_conta(titular):
@@ -96,32 +38,28 @@ def abrir_conta(self, titular, saldo_inicial=0):
     nova_conta = ContaBancaria(titular, saldo_inicial)
     self.contas.append(nova_conta)
     return nova_conta
+```
 
-
- 3. main.py — User Interface (CLI)
-The entry point of the system.
-It connects everything through an interactive, text-based interface.
+3. main.py — User Interface (CLI)
+The entry point of the system. It connects everything through an interactive, text-based interface.
 
 Features:
 
 Account creation flow
-
 Menu navigation with deposit, withdrawal, and balance options
-
 Smooth text animations for a better UX
-
 Cross-platform screen clearing
 
 Example Menu:
 
-python
+```plaintext
 Copy code
 --- Menu Principal | Banco Digital Dev ---
 1. Depositar
 2. Sacar
 3. Ver Saldo
 4. Sair
-
+```
 
 Concepts Practiced
 Concept	Description
@@ -131,9 +69,8 @@ Composition	Banco manages multiple ContaBancaria objects
 Error Handling	Prevents invalid input or operations
 UX Design (CLI)	Realistic text delays, feedback, and flow
 
-
 Demo (Terminal Simulation)
-Example of how the user interacts with the Bank Simulator through the command line.
+Example of how the user interacts with the Bank Simulator through the command line:
 
 bash
 Copy code
@@ -179,9 +116,7 @@ Saque de R$50.00 realizado com sucesso.
 Saldo atual de João Silva igual a R$300.00.
 
 Pressione ENTER para voltar ao menu...
-
-
-future Improvements
+Future Improvements
 Add persistent storage (SQLite or JSON)
 
 Implement account authentication (username/password)
@@ -202,10 +137,9 @@ Language Locale	PT-BR
 Topics	Classes, Encapsulation, CLI UX, Composition, Modular Design
 
 <p align="center"><i>“Transforming logic into life through clean, interactive OOP systems.”</i></p>
-
 Connect
 Platform	Link
 LinkedIn	https://www.linkedin.com/in/vitor-de-padua/
 Email	vitorprofissionalpp10@gmail.com
 
-<p align="center"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p> ```
+<p align="center"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>
