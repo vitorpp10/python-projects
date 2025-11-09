@@ -72,7 +72,7 @@ UX Design (CLI)	Realistic text delays, feedback, and flow
 Demo (Terminal Simulation)
 Example of how the user interacts with the Bank Simulator through the command line:
 
-bash
+```bash
 Copy code
 $ python main.py
 
@@ -116,6 +116,8 @@ Saque de R$50.00 realizado com sucesso.
 Saldo atual de João Silva igual a R$300.00.
 
 Pressione ENTER para voltar ao menu...
+```
+
 Future Improvements
 Add persistent storage (SQLite or JSON)
 
