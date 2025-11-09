@@ -42,19 +42,14 @@ Focused on **input validation**, **conditionals**, and **arithmetic operations**
 ---
 
 ## **TryPassMe**
-
 a simple python mini-game to guess the login and password. players have limited tries and get hints.
 
 ---
 
 ## **List Market 2.0**
-
 A minimal CLI shopping list with smooth UX and undo/redo.
-
 Commands: type an item to add; use "listar", "desfazer", "refazer"; press ENTER for help; confirm with y/n to continue.
-
 UX: clears the screen after actions and uses typewriter-style prompts.
-
 Logic: two-stack history (undo/redo) with redo cleared after new additions.
 
 ---
