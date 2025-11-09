@@ -64,9 +64,6 @@ python-projects/
 │
 └── README.md
 
-yaml
-Copy code
-
 Projects are grouped by **difficulty level**, keeping navigation intuitive as the repository evolves.
 
 ---
@@ -95,6 +92,7 @@ bash
 # Example: run a script from the basic_projects folder
 python basic_projects/list_market_2_0.py
 ```
+
 ---
 
 ## Roadmap
@@ -109,6 +107,8 @@ python basic_projects/list_market_2_0.py
 
 - Currently in continuous practice and exploration, actively improving through feedback and iteration.
 - Phase 1 exists to demonstrate early progress, while building a foundation for more advanced, intermediate work.
+
+---
 
 ## Tech Stack
 
@@ -127,5 +127,6 @@ python basic_projects/list_market_2_0.py
 | **Environment** | Virtual env (venv) |
 | **Planned** | pytest, pylint, SQL (SQLite/PostgreSQL), packaging |
 
+---
 
 <p align="center">💡 <i>“Small, consistent steps — building strong Python fundamentals.”</i></p>
