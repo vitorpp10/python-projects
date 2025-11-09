@@ -1,6 +1,6 @@
 # Python Bank Simulator — Phase 1
 
-### 1. `conta.py` — Conta Bancária  
+### 1. `account.py` — Account 
 Implements the `ContaBancaria` class, representing individual bank accounts.
 
 **Responsibilities:**
@@ -18,7 +18,7 @@ def sacar(self, valor):
         print(f"Saque de R${valor:.2f} realizado com sucesso.")
 ``````
 
-2. bank.py — Bank Management
+### 2. `bank.py` — Bank Management
 Implements the Banco class — the “manager” that connects users and accounts.
 
 Responsibilities:
@@ -118,28 +118,31 @@ Saldo atual de João Silva igual a R$300.00.
 Pressione ENTER para voltar ao menu...
 ```
 
-Future Improvements
-Add persistent storage (SQLite or JSON)​
+## Future Improvements
 
-Implement account authentication (username/password)​
+| Add persistent storage (SQLite or JSON) |​
+| Implement account authentication (username/password)​ |
+| Introduce transaction history with timestamps​ |
+| Add multi-user session support​ |
+| Create a GUI version with tkinter or customtkinter ​| 
 
-Introduce transaction history with timestamps​
+## Tech Stack
 
-Add multi-user session support​
+| Category | Tools / Concepts |
+|---|---|
+| **Language** | Python 3.x |
+| **Paradigm** | Object-Oriented Programming |
+| **IDE** | Visual Studio Code |
+| **Libraries** | `os`, `time` |
+| **Language** | PT-BR |
+| **Topics** | Encapsulation, CLI UX, Composition, Modular Design |
 
-Create a GUI version with tkinter or customtkinter​
+## Connect
 
-Tech Stack
-Category	Tools / Concepts
-Language	Python 3.x
-Paradigm	Object-Oriented Programming
-IDE	Visual Studio Code
-Libraries	os, time
-Language Locale	PT-BR
-Topics	Classes, Encapsulation, CLI UX, Composition, Modular Design
-<p align="center"><i>“Transforming logic into life through clean, interactive OOP systems.”</i></p>[2]
-Connect
-Platform	Link
-LinkedIn	https://www.linkedin.com/in/vitor-de-padua/
-Email	vitorprofissionalpp10@gmail.com
+| Platform | Link |
+|-----------|------|
+| **LinkedIn** | [https://www.linkedin.com/in/vitor-de-padua/](https://www.linkedin.com/in/vitor-de-padua/) |
+| **Email** | vitorprofissionalpp10@gmail.com |
+| **beecrowd Profile** | [https://judge.beecrowd.com/en/profile/1188964](https://judge.beecrowd.com/en/profile/1188964) |
+
 <p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>[3][4]
