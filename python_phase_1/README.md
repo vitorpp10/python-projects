@@ -91,29 +91,41 @@ python3 -m venv .venv
 source .venv/bin/activate
 Run a Project
 bash
-Copy code
+
 # Example: run a script from the basic_projects folder
 python basic_projects/list_market_2_0.py
-Roadmap
-Next Steps:
+```
+---
 
-Python + SQL: persistence, querying, and small CRUD apps connecting logic with real data
+## Roadmap
 
-Quality upgrades: unit tests, linting, and packaging for better structure and reliability
+**Next Steps**:
 
-CLI/UX polish: clearer messages, consistent flags, and friendly terminal error handling
+- Python + SQL: persistence, querying, and small CRUD apps connecting logic with real data
+- Quality upgrades: unit tests, linting, and packaging for better structure and reliability
+- CLI/UX polish: clearer messages, consistent flags, and friendly terminal error handling
 
-Learning Status
-Currently in continuous practice and exploration, actively improving through feedback and iteration.
-Phase 1 exists to demonstrate early progress, while building a foundation for more advanced, intermediate work.
+**Learning Status**:
 
-Tech Stack
-Language: Python 3.x
+- Currently in continuous practice and exploration, actively improving through feedback and iteration.
+- Phase 1 exists to demonstrate early progress, while building a foundation for more advanced, intermediate work.
 
-Concepts: Procedural Programming, OOP, Data Structures, CLI I/O
+## Tech Stack
 
-Environment: Virtualenv (venv)
+| Category | Tools / Concepts |
+|-----------|------------------|
+| **Language** | Python 3.x |
+| **IDE** | Visual Studio Code |
+| **Topics Covered** | Loops, Functions, Conditionals, Input/Output, Data Structures, Algorithms |
 
-Tools (planned): pytest, pylint, SQL (SQLite/PostgreSQL), packaging
+## Tech Stack
 
-<p align="center">💡 <i>“Small, consistent steps — building strong Python fundamentals.”</i></p> ```
+| Category | Concepts / Tools |
+|-----------|------------------|
+| **Language** | Python 3.x |
+| **Programming** | Procedural Programming, OOP, Data Structures, CLI I/O |
+| **Environment** | Virtual env (venv) |
+| **Planned** | pytest, pylint, SQL (SQLite/PostgreSQL), packaging |
+
+
+<p align="center">💡 <i>“Small, consistent steps — building strong Python fundamentals.”</i></p>
