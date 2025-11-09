@@ -64,16 +64,16 @@ Copy code
 3. Ver Saldo
 4. Sair
 ```
--
+---
 
 ## Concepts Practiced
 
-Concept	Description
-Classes & Objects	Models entities: bank and accounts
-Encapsulation	Protects balance variable _saldo
-Composition	Banco manages multiple ContaBancaria objects
-Error Handling	Prevents invalid input or operations
-UX Design (CLI)	Realistic text delays, feedback, and flow
+- Concept Description
+- Classes & Objects	-> Models entities: bank and accounts
+- Encapsulation -> Protects balance variable _saldo
+- Composition -> Banco manages multiple ContaBancaria objects
+- Error Handling -> Prevents invalid input or operations
+- UX Design (CLI) -> Realistic text delays, feedback, and flow
 
 ## Demo (Terminal Simulation)
 
