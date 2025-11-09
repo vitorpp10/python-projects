@@ -75,6 +75,8 @@ Copy code
 - Error Handling -> Prevents invalid input or operations
 - UX Design (CLI) -> Realistic text delays, feedback, and flow
 
+---
+
 ## Demo (Terminal Simulation)
 
 Example of how the user interacts with the Bank Simulator through the command line:
@@ -152,5 +154,7 @@ Pressione ENTER para voltar ao menu...
 | **LinkedIn** | [https://www.linkedin.com/in/vitor-de-padua/](https://www.linkedin.com/in/vitor-de-padua/) |
 | **Email** | vitorprofissionalpp10@gmail.com |
 | **beecrowd Profile** | [https://judge.beecrowd.com/en/profile/1188964](https://judge.beecrowd.com/en/profile/1188964) |
+
+---
 
 <p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>[3][4]
