@@ -18,16 +18,15 @@ Feel free to explore the projects and track my progress!
 
 ## Structure
 
-python_phase_1/
-├── basic_projects/
-├── OOP_projects/
-└── README.md
-
-python_phase_2/ (planned)
-python_phase_3/ (planned)
-
-yaml
-Copy code
+python-projects/
+│
+├── python_phase_1/          
+│   ├── basic_projects/      
+│   ├── oop_projects/         
+│   └── README.md
+│
+├── python_phase_2/ (planned)  
+├── python_phase_3/ (planned)  
 
 ---
 
