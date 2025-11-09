@@ -1,7 +1,15 @@
-<h1 align="center">Python Projects — Phase 1</h1>
+<h1 align="center"> Python Projects — Phase 1</h1>
 
 <p align="center">
-  Early-stage Python portfolio — <b>1 month into the journey</b>, focused on fundamentals, clean code, and developer experience.
+  A collection of <b>Python mini-projects</b> built during my Computer Science learning journey.<br>
+  From algorithms to small utilities — every line of code here represents progress. 
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" />
 </p>
 
 ---
