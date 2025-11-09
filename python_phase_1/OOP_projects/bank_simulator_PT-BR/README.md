@@ -18,6 +18,8 @@ def sacar(self, valor):
         print(f"Saque de R${valor:.2f} realizado com sucesso.")
 ``````
 
+---
+
 ### 2. `bank.py` — Bank Management
 Implements the Banco class — the “manager” that connects users and accounts.
 
@@ -40,6 +42,8 @@ def abrir_conta(self, titular, saldo_inicial=0):
     return nova_conta
 ```
 
+---
+
 ### 3. `main.py` — User Interface (CLI)
 The entry point of the system. It connects everything through an interactive, text-based interface.
 
@@ -60,8 +64,10 @@ Copy code
 3. Ver Saldo
 4. Sair
 ```
+-
 
-Concepts Practiced
+## Concepts Practiced
+
 Concept	Description
 Classes & Objects	Models entities: bank and accounts
 Encapsulation	Protects balance variable _saldo
@@ -69,7 +75,8 @@ Composition	Banco manages multiple ContaBancaria objects
 Error Handling	Prevents invalid input or operations
 UX Design (CLI)	Realistic text delays, feedback, and flow
 
-Demo (Terminal Simulation)
+## Demo (Terminal Simulation)
+
 Example of how the user interacts with the Bank Simulator through the command line:
 
 ```bash
