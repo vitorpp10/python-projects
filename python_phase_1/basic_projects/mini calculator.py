@@ -1,8 +1,5 @@
 import math
 
-# ===================================================================
-# Bloco 1: Boas-Vindas (Executa apenas uma vez)
-# ===================================================================
 nome = input('Digite seu nome: ')
 print(' ')
 print(f'{nome}, bem-vindo(a) a sua calculadora em Python!')
@@ -10,10 +7,6 @@ print('Para selecionar uma operação, basta digitar o número correspondente.')
 print('Bom uso!')
 print('\n======================================================\n')
 
-
-# ===================================================================
-# Bloco 2: Loop Principal (Mantém a calculadora funcionando)
-# ===================================================================
 while True:
     print('====== MENU PRINCIPAL ======')
     print('1: Soma (+)')
@@ -27,12 +20,10 @@ while True:
     value = input("Digite o número da opção desejada: ")
     print(' ')
 
-    # --- Condição de Saída ---
     if value == '9':
         print(f'Obrigado por usar a calculadora, {nome}. Até mais!')
-        break # Encerra o loop while e finaliza o programa
+        break
 
-    # --- Operações Básicas ---
     elif value == "1":
         print('-> SOMA')
         print('Digite os dois números a serem somados (separados por espaço):')
@@ -44,7 +35,7 @@ while True:
     elif value == "2":
         print('-> SUBTRAÇÃO')
         print('Digite os dois números a serem subtraídos (separados por espaço):')
-        sb1, sb2 = map(float, input().split()) # Alterado para float para consistência
+        sb1, sb2 = map(float, input().split())
         sub = sb1 - sb2
         print(' ')
         print(f'Resultado: {sb1} - {sb2} = {sub}')
@@ -52,7 +43,7 @@ while True:
     elif value == "3":
         print('-> MULTIPLICAÇÃO')
         print('Digite os dois números a serem multiplicados (separados por espaço):')
-        m1, m2 = map(float, input().split()) # Alterado para float para consistência
+        m1, m2 = map(float, input().split())
         mult = m1 * m2
         print(' ')
         print(f'Resultado: {m1} * {m2} = {mult}')
@@ -68,7 +59,6 @@ while True:
             print(' ')
             print(f'Resultado: {d1} / {d2} = {div}')
 
-    # --- Sub-menu de Mais Opções ---
     elif value == '5':
         print('--- Mais Opções ---') 
         print('6: Média de dois números')
@@ -109,16 +99,13 @@ while True:
         
         elif value1 == '0':
             print('Voltando ao menu principal...')
-            # 'continue' pula para a próxima iteração do loop, mostrando o menu novamente
             print('\n------------------------------------------------------\n')
             continue
         
         else:
             print("Opção inválida. Voltando ao menu principal.")
 
-    # --- Tratamento de Opção Inválida no Menu Principal ---
     else:
         print("Opção inválida. Por favor, selecione um número do menu.")
 
-    # Mensagem de separação antes do loop recomeçar
     print('\n------------------------------------------------------\n')
