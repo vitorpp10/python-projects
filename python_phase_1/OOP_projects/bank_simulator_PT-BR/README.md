@@ -119,15 +119,15 @@ Pressione ENTER para voltar ao menu...
 ```
 
 Future Improvements
-Add persistent storage (SQLite or JSON)
+Add persistent storage (SQLite or JSON)​
 
-Implement account authentication (username/password)
+Implement account authentication (username/password)​
 
-Introduce transaction history with timestamps
+Introduce transaction history with timestamps​
 
-Add multi-user session support
+Add multi-user session support​
 
-Create a GUI version with tkinter or customtkinter
+Create a GUI version with tkinter or customtkinter​
 
 Tech Stack
 Category	Tools / Concepts
@@ -137,11 +137,9 @@ IDE	Visual Studio Code
 Libraries	os, time
 Language Locale	PT-BR
 Topics	Classes, Encapsulation, CLI UX, Composition, Modular Design
-
-<p align="center"><i>“Transforming logic into life through clean, interactive OOP systems.”</i></p>
+<p align="center"><i>“Transforming logic into life through clean, interactive OOP systems.”</i></p>[2]
 Connect
 Platform	Link
 LinkedIn	https://www.linkedin.com/in/vitor-de-padua/
 Email	vitorprofissionalpp10@gmail.com
-
-<p align="center"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>
+<p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>[3][4]
