@@ -1,4 +1,4 @@
-<h1 align="center"> mini-crud-employees — Phase 1 </h1>
+<h1 align="center"> Mini-Crud-Employees — Phase 1 </h1>
 
 <p align="center">
   A basic <b>CRUD (Create, Read, Update, Delete)</b> project built with Python and SQLite.<br>
@@ -33,20 +33,21 @@ Example menu:
 4. Delete Employee
 5. Exit
 2. database.py — Database Layer
-Handles all database interactions using Python’s built-in sqlite3 library.
-Encapsulates SQL logic in simple functions to maintain clean code separation.
+```
+---
 
-Responsibilities:
+*Handles all database interactions using Python’s built-in sqlite3 library.*
+*Encapsulates SQL logic in simple functions to maintain clean code separation.*
 
-Create database and tables (if not existing)
+**Responsibilities:**
 
-Insert, retrieve, update, and delete employee data
-
-Return query results for the CLI interface
+- Create database and tables (if not existing)
+- Insert, retrieve, update, and delete employee data
+- Return query results for the CLI interface
 
 Example methods:
 
-python
+```python
 Copy code
 def create_table():
     # Creates the employee table if it doesn't exist
@@ -62,19 +63,27 @@ def update_employee(id, new_name):
 
 def delete_employee(id):
     # Deletes an employee record by ID
-Concepts Practiced
-Concept	Description
-Procedural Programming	Structuring code through functions and modules
-SQLite Integration	Performing CRUD operations using SQL commands
-Modular Design	Separating UI (menu) and data logic (database)
-Data Persistence	Storing and retrieving data locally via SQLite
-Input Validation	Ensuring user entries are handled safely
-CLI UX	Building an intuitive text-based interface
+```
 
-Demo (Terminal Simulation)
+---
+
+## Concepts Practiced
+
+- Concept Description
+- Procedural Programming -> Structuring code through functions and modules
+- SQLite Integration -> Performing CRUD operations using SQL commands
+- Modular Design -> Separating UI (menu) and data logic (database)
+- Data Persistence -> Storing and retrieving data locally via SQLite
+- Input Validation -> Ensuring user entries are handled safely
+- CLI UX -> Building an intuitive text-based interface
+
+---
+
+## Demo (Terminal Simulation)
+
 Example of how the CRUD system behaves in the terminal:
 
-bash
+```bash
 Copy code
 $ python main.py
 
@@ -104,30 +113,47 @@ Employee deleted successfully!
 
 Choose an option: 5
 Exiting...
-Future Improvements
-Planned Feature	Status
-Add error handling for duplicates or invalid input	🔜
-Implement export to CSV/JSON	🔜
-Create GUI version with Tkinter	🔜
-Add bilingual documentation (EN/PT-BR)	🔜
+```
 
-Tech Stack
-Category	Tools / Concepts
-Language	Python 3.x
-Database	SQLite (built-in sqlite3 library)
-Paradigm	Procedural Programming
-IDE	Visual Studio Code
-Language	English
-Topics	SQL Basics, CLI UX, Modularization, Data Persistence
+---
 
-Connect
-Platform	Link
-LinkedIn	https://www.linkedin.com/in/vitor-de-padua/
-Email	vitorprofissionalpp10@gmail.com
+## Future Improvements
 
-Goal
+|​ Planned Feature	Status |​ 
+|​ Add error handling for duplicates or invalid input 🔜 |​
+|​ Implement export to CSV/JSON 🔜 |​
+|​ Create GUI version with Tkinter 🔜 |​
+|​ Add bilingual documentation (EN/PT-BR) 🔜 |​ 
+
+## Tech Stack
+
+| Category | Tools / Concepts |
+|---|---|
+| **Language** | Python 3.x |
+| **Database** | SQLite (built-in sqlite3 library) |
+| **Paradigm** | Procedural Programming |
+| **IDE** | Visual Studio Code |
+| **Language** | English |
+| **Topics** | SQL Basics, CLI UX, Modularization, Data Persistence |
+
+## Connect
+
+| Platform | Link |
+|-----------|------|
+| **LinkedIn** | [https://www.linkedin.com/in/vitor-de-padua/](https://www.linkedin.com/in/vitor-de-padua/) |
+| **Email** | vitorprofissionalpp10@gmail.com |
+
+---
+
+## Goal
+
 This mini project represents Phase 1 of my Python learning journey — focused on logic, database handling, and system structure at the command-line level.
 It serves as a foundation for future studies involving APIs, GUIs, and web development.
 
+---
+
 <p align="center"><i>“Small projects build great developer stories.”</i></p>
+
+---
+
 <p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p> ```
