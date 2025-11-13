@@ -1,105 +1,141 @@
-<h1 align="center">mini-crud-funcionarios — Phase 1</h1> <p align="center"> Basic <b>CRUD (Create, Read, Update, Delete)</b> project in Python using SQLite.<br> Practical exploration of backend logic and database access — from code structure to database management. </p> <p align="center"> <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" /> <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" /> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" /> </p>
-1. main.py — User Menu Interface
-Responsibilities:
+<h1 align="center">mini-crud-employees — Phase 1</h1>
 
-Presents the user with a menu to choose one of the four CRUD operations.
+<p align="center">
+A basic <b>CRUD (Create, Read, Update, Delete)</b> project built with Python and SQLite.<br>
+It focuses on understanding backend logic, modular code design, and simple database operations in a CLI environment.
+</p>
 
-Handles and validates user input.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" />
+</p>
 
-Calls the correct database functions.
+---
 
-Example menu:
+## 🧩 Project Overview
 
-text
-=== Sistema de Funcionários ===
-1. Adicionar funcionário
-2. Listar funcionários
-3. Atualizar funcionário
-4. Excluir funcionário
-5. Sair
-2. database.py — Database Layer
-Responsibilities:
+This is the **first phase** of a personal learning journey into Python backend development.  
+It’s a simple terminal-based CRUD system for managing employees — great for beginners exploring data persistence and procedural programming.
 
-Handles all database commands using SQLite (included with Python).
+---
 
-Separates logic for creating the table, adding, listing, updating, and deleting records.
+## 📁 File Structure
 
-Key functions:
+### `main.py` — User Menu Interface
+
+**Responsibilities:**
+- Displays the menu for selecting CRUD operations  
+- Validates and processes user input  
+- Calls the corresponding database functions  
+
+**Example Menu:**
+=== Employee Management System ===
+
+Add Employee
+
+List Employees
+
+Update Employee
+
+Delete Employee
+
+Exit
 
 python
-def criar_tabela():
-    # Cria a tabela de funcionários se não existir
-def adicionar_funcionario(nome):
-    # Insere um novo funcionário
-def listar_funcionarios():
-    # Retorna todos os registros cadastrados
-def atualizar_funcionario(id, novo_nome):
-    # Altera o nome de um funcionário pelo id
-def excluir_funcionario(id):
-    # Remove um funcionário pelo id
-Concepts Practiced
+Copy code
+
+---
+
+### `database.py` — Database Layer
+
+**Responsibilities:**
+- Handles all SQLite operations  
+- Contains logic for creating tables and performing CRUD actions  
+
+**Key Functions:**
+```python
+def create_table():
+    # Creates the employee table if it doesn't exist
+
+def add_employee(name):
+    # Inserts a new employee record
+
+def list_employees():
+    # Returns all stored employee records
+
+def update_employee(id, new_name):
+    # Updates the employee's name by ID
+
+def delete_employee(id):
+    # Deletes an employee by ID
+🧠 Concepts Practiced
 Procedural programming in Python
 
-Modular file structure (separating menu and DB logic)
+Modular project structure (UI and DB separated)
 
-Introduction to SQL commands (INSERT, SELECT, UPDATE, DELETE)
+Basic SQL operations: INSERT, SELECT, UPDATE, DELETE
 
-Data persistence with SQLite
+Data persistence using SQLite
 
-Input validation and clear terminal UI
+Input validation and clean CLI interface
 
-CLI menu interaction
+User interaction through terminal menus
 
-Demo (Terminal Simulation)
+💻 Demo (Terminal Simulation)
 bash
+Copy code
 $ python main.py
 
-=== Sistema de Funcionários ===
-1. Adicionar funcionário
-2. Listar funcionários
-3. Atualizar funcionário
-4. Excluir funcionário
-5. Sair
-Escolha uma opção: 1
-Nome do funcionário: Amanda
-Funcionário adicionado!
+=== Employee Management System ===
+1. Add Employee
+2. List Employees
+3. Update Employee
+4. Delete Employee
+5. Exit
 
-# ...
+Choose an option: 1
+Employee name: Amanda
+Employee added successfully!
 
-Escolha uma opção: 2
---- Funcionários Cadastrados ---
-ID: 1 | Nome: Amanda
+Choose an option: 2
+--- Registered Employees ---
+ID: 1 | Name: Amanda
 
-Escolha uma opção: 3
-ID do funcionário a atualizar: 1
-Novo nome: Ana
-Funcionário atualizado!
+Choose an option: 3
+Employee ID to update: 1
+New name: Ana
+Employee updated successfully!
 
-Escolha uma opção: 4
-ID do funcionário a excluir: 1
-Funcionário excluído!
+Choose an option: 4
+Employee ID to delete: 1
+Employee deleted successfully!
 
-Escolha uma opção: 5
-Saindo...
-Future Improvements
+Choose an option: 5
+Exiting...
+🚀 Future Improvements
 Planned Feature	Status
 Add error handling for duplicates / missing data	🔜
 Implement export to CSV/JSON	🔜
-GUI version with Tkinter	🔜
-Documentation in EN/PT-BR	🔜
-Tech Stack
+Build a GUI version with Tkinter	🔜
+Add bilingual documentation (EN/PT-BR)	🔜
+
+🛠️ Tech Stack
 Category	Tools / Concepts
 Language	Python 3.x
-Library	sqlite3 (built-in)
+Database Library	sqlite3 (built-in)
 IDE	Visual Studio Code
-Paradigm	Procedural
-Language	PT-BR
-Connect
-Platform	Link
-LinkedIn	https://www.linkedin.com/in/vitor-de-padua/
-Email	vitorprofissionalpp10@gmail.com
-Goal
-This CRUD project is a foundational step in my Python journey (Phase 1), putting into practice database handling, separation of concerns, and UI logic at the CLI level. Ideal for students and beginners as a base for future learning in more complex systems.
+Programming Paradigm	Procedural
+Interface Language	English
 
-<p align="center"><i>“Pequenos projetos constroem grandes histórias dev.”</i></p>
-<p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>
+🌐 Connect with Me
+Platform	Link
+LinkedIn	Vitor de Pádua
+Email	vitorprofissionalpp10@gmail.com
+
+🎯 Project Goal
+This CRUD system marks Phase 1 of my Python learning path — focusing on database management, code organization, and CLI design.
+It serves as a strong foundation for future projects involving APIs, GUIs, and web frameworks.
+
+<p align="center"><i>“Small projects build great developer stories.”</i></p> <p align="center"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p> ```
