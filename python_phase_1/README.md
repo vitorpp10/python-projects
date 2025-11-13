@@ -38,7 +38,14 @@ Short, foundational scripts to practice:
 Intermediate exercises to explore:  
 - Classes and objects  
 - Encapsulation and clean architecture  
-- Reusability and scalability in design  
+- Reusability and scalability in design
+
+### 🔺 SQLites Projects
+A practical, beginner-friendly command-line project to practice:
+- Building a simple employee manager (CRUD: Create, Read, Update, Delete)
+- Using Python with SQLite for persistent storage
+- Implementing modular structure (separating UI/menu and data/database functions)
+- Handling real-world data and safe user input in the terminal
 
 ---
 
@@ -60,6 +67,12 @@ python-projects/
 │ ├── pycache/
 │ ├── account.py
 │ ├── bank.py
+│ └── main.py
+│
+│
+├── sqlite_projects/
+│ └── crud_system_PT-BR/
+│ ├── database.py
 │ └── main.py
 │
 └── README.md
