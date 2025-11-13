@@ -1,4 +1,4 @@
-<h1 align="center">mini-crud-employees — Phase 1</h1>
+<h1 align="center">Mini-Crud-Employees — Phase 1</h1>
 
 <p align="center">
 A basic <b>CRUD (Create, Read, Update, Delete)</b> project built with Python and SQLite.<br>
@@ -14,14 +14,14 @@ It focuses on understanding backend logic, modular code design, and simple datab
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
 This is the **first phase** of a personal learning journey into Python backend development.  
 It’s a simple terminal-based CRUD system for managing employees — great for beginners exploring data persistence and procedural programming.
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ### `main.py` — User Menu Interface
 
