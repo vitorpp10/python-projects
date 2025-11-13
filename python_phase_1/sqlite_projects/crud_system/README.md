@@ -26,13 +26,14 @@ Acts as the **entry point** of the system. Displays the CRUD options and connect
 Example menu:
 
 ```plaintext
-=== Employee Management System ===
-1. Add Employee
-2. List Employees
-3. Update Employee
-4. Delete Employee
-5. Exit
-2. database.py — Database Layer
+def menu():
+    print("\n=== Sistema de Funcionários ===")
+    print("1. Adicionar funcionário")
+    print("2. Listar funcionários")
+    print("3. Atualizar funcionário")
+    print("4. Excluir funcionário")
+    print("5. Sair")
+    return input("Escolha uma opção: ")
 ```
 ---
 
@@ -48,21 +49,11 @@ Example menu:
 Example methods:
 
 ```python
-Copy code
-def create_table():
-    # Creates the employee table if it doesn't exist
-
-def add_employee(name):
-    # Inserts a new employee into the database
-
-def list_employees():
-    # Returns all registered employees
-
-def update_employee(id, new_name):
-    # Updates an employee's name based on their ID
-
-def delete_employee(id):
-    # Deletes an employee record by ID
+def criar_tabela():
+def adicionar_funcionario(nome):
+def listar_funcionarios():
+def atualizar_funcionario(id, novo_nome):
+def excluir_funcionario(id):
 ```
 
 ---
@@ -84,35 +75,34 @@ def delete_employee(id):
 Example of how the CRUD system behaves in the terminal:
 
 ```bash
-Copy code
 $ python main.py
 
-=== Employee Management System ===
-1. Add Employee
-2. List Employees
-3. Update Employee
-4. Delete Employee
-5. Exit
+=== Sistema de Funcionários ===
+1. Adicionar funcionário
+2. Listar funcionários
+3. Atualizar funcionário
+4. Excluir funcionário
+5. Sair
 
-Choose an option: 1
-Employee name: Amanda
-Employee added successfully!
+Escolha uma opção: 1
+Nome do funcionário: Amanda
+Funcionário adicionado!
 
-Choose an option: 2
---- Registered Employees ---
-ID: 1 | Name: Amanda
+Escolha uma opção: 2
+--- Funcionários Cadastrados ---
+ID: 1 | Nome: Amanda
 
-Choose an option: 3
-Employee ID to update: 1
-New name: Ana
-Employee updated successfully!
+Escolha uma opção: 3
+ID do funcionário a atualizar: 1
+Novo nome: Ana
+Funcionário atualizado!
 
-Choose an option: 4
-Employee ID to delete: 1
-Employee deleted successfully!
+Escolha uma opção: 4
+ID do funcionário a excluir: 1
+Funcionário excluído!
 
-Choose an option: 5
-Exiting...
+Escolha uma opção: 5
+Saindo...
 ```
 
 ---
