@@ -123,7 +123,7 @@ Saindo...
 | **Database** | SQLite (built-in sqlite3 library) |
 | **Paradigm** | Procedural Programming |
 | **IDE** | Visual Studio Code |
-| **Language** | English |
+| **Language** | PT-BR |
 | **Topics** | SQL Basics, CLI UX, Modularization, Data Persistence |
 
 ## Connect
