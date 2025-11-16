@@ -1,4 +1,4 @@
-<h1 align="center"> Python OOP Projects — Phase 2</h1>
+<h1 align="center"> Python OOP Projects — Phase 1</h1>
 
 <p align="center">
   A collection of <b>Object-Oriented Python projects</b> built to deepen my understanding of real OOP principles.<br>
