@@ -40,7 +40,7 @@ Built to practice abstraction, polymorphic behavior, and clean OOP architecture 
 
 ## Goal
 
-These projects represent my **Phase 2 of learning Python**, focused on mastering Object-Oriented Programming through practical, real-world scenarios.  
+These projects represent my **Phase 1 of learning Python**, focused on mastering Object-Oriented Programming through practical, real-world scenarios.  
 Each one brings me closer to becoming a **skilled and well-structured Python developer**.
 
 ---
