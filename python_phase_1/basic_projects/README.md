@@ -57,6 +57,13 @@ Logic: two-stack history (undo/redo) with redo cleared after new additions.
 
 ---
 
+## Analistic Texts
+A console-based tool that analyzes a block of text and displays detailed statistics.
+
+It calculates word count, character count, longest word, and letter frequency, using concepts like string manipulation, functions, loops, and terminal interaction with a typewriter effect.
+
+---
+
 ### features
 
 - guess login and password  

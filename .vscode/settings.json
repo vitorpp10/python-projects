@@ -1,0 +1,45 @@
+{
+  "workbench.colorCustomizations": {
+    "minimap.background": "#00000000",
+    "scrollbar.shadow": "#00000000",
+    "editorRuler.foreground": "#223b50"
+  },
+  "editor.minimap.enabled": false,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "all",
+
+  "editor.fontFamily": "'Victor Mono', 'JetBrains Mono', 'Fira Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.6,
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "storage",
+          "storage.type",
+          "entity.name.type.class",
+          "keyword.control",
+          "variable.language.this",
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorBlinking": true,
+
+  "workbench.iconTheme": "material-icon-theme"
+}
