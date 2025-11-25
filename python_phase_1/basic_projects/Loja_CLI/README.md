@@ -34,6 +34,8 @@ Built with a focus on clean CLI UX, error handling, and foundational data persis
 
 3. Custom UX Functions (CLI Effects)
   - LojaCLI includes custom functions that enhance the console experience:
+  
+--
 
 *Function:*
   - p()
@@ -52,6 +54,8 @@ Built with a focus on clean CLI UX, error handling, and foundational data persis
   - UX, input handling
   - OS operations
   - File I/O
+
+--
 
 4. Robust Error Handling
   - The program prevents crashes by validating numeric input and handling invalid entries with clear feedback.
