@@ -35,23 +35,23 @@ Built with a focus on clean CLI UX, error handling, and foundational data persis
 3. Custom UX Functions (CLI Effects)
   - LojaCLI includes custom functions that enhance the console experience:
 
-| Function: | 
-  > p()
-  > i()
-  > clear()
-  > record_transaction()
+*Function:*
+  - p()
+  - i()
+  - clear()
+  - record_transaction()
 
-| Purpose: |
-  > Slow typing effect for messages
-  > Slow typing input prompt
-  > Clears the terminal screen
-  > Saves operations to `.txt`
+*Purpose:*
+  - Slow typing effect for messages
+  - Slow typing input prompt
+  - Clears the terminal screen
+  - Saves operations to `.txt`
 
-| Concepts Involved: |
-  > UX, time.sleep()
-  > UX, input handling
-  > OS operations
-  > File I/O
+*Concepts Involved:*
+  - UX, time.sleep()
+  - UX, input handling
+  - OS operations
+  - File I/O
 
 4. Robust Error Handling
   - The program prevents crashes by validating numeric input and handling invalid entries with clear feedback.
@@ -80,16 +80,16 @@ Built with a focus on clean CLI UX, error handling, and foundational data persis
 **1. CLI/UX Core**
 Although simple, the project introduces foundational UX patterns for terminal-based apps.
 
-| Component: |
-  > Typing effect
-  > Input validation
-  > File persistence
+*Component:*
+  - Typing effect
+  - Input validation
+  - File persistence
 
 
-| Description: |
-  > Creates a more interactive experience
-  > Ensures clean numeric operations
-  > Stores historical data reliably
+*Description:*
+  - Creates a more interactive experience
+  - Ensures clean numeric operations
+  - Stores historical data reliably
 
 ---
 
