@@ -20,7 +20,7 @@ def i(prompt, delay=0.04):
     return user_input
 
 
-def save(prod, custo, venda, lucro):
+def record_transaction(prod, custo, venda, lucro):
     data_hoje = datetime.datetime.now().strftime('%d/%m/%Y %H:%M')
     line = f'{data_hoje} | {prod} | Custo: R$ {custo:.2f} | Venda: R$ {venda:.2f} | Lucro: R$ {lucro:.2f}\n'
 
@@ -31,7 +31,34 @@ def save(prod, custo, venda, lucro):
     except Exception as e:
         p(f'\033[31mERRO ao salvar: {e}\033[0m', delay=0.02)
 
-            
+def ver_historico():
+    clear()
+    print('--- HISTÓRICO DE VENDAS (ÚLTIMOS 10 REGISTROS) ---')
+    p(' ', delay=0.08)
+    print('-' * 70)
+    try:
+        with open('historico_vendas.txt', 'r', encoding='utf-8') as arquivo:
+            todas_linhas = arquivo.readlines()
+        
+        if not todas_linhas:
+            p('O histórico de vendas está vazio.', delay=0.04)
+            return 
+        
+        ultimas_transações = todas_linhas[-10:]
+        
+        for linha in ultimas_transações:
+            print(linha.strip())
+
+    except FileNotFoundError:
+        p("\033[33mAviso: O arquivo 'historico_vendas.txt' ainda não existe.\033[0m", delay=0.04)
+    
+    except Exception as e:
+        p(f"\033[31mERRO ao ler o arquivo: {e}\033[0m", delay=0.04)
+    
+    print('-' * 70)
+    p('Pressione ENTER para voltar ao menu ', delay=0.04)
+    input()
+        
 def calcular_lucro():
     clear()
     print('--- CALCULADORA DA LOJA --- ')
@@ -62,7 +89,7 @@ def calcular_lucro():
 
         salvar = i('Deseja salvar essa transação no histórico? (s/n): ', delay=0.03)
         if salvar.lower().strip() == 's':
-            save(produto, custo, venda, lucro)
+            record_transaction(produto, custo, venda, lucro)
         else:
             p('Transação não salva.', delay=0.03)
             time.sleep(1)
@@ -79,18 +106,31 @@ def calcular_lucro():
 def main():
     clear()
     p('--- SISTEMA LOJA CLI --- ')
-    p('Iniciando loop de transações...', delay=0.03)
-    time.sleep(1.5)
+    time.sleep(1)
     
     while True:
-        calcular_lucro()
         clear()
-        continuar = i('Fazer nova transação? (s/n) ', delay=0.03)
-        print()
-        if continuar.lower().strip() != 's':
+        print('--- MENU PRINCIPAL ---')
+        print('1. Nova Transação')
+        print('2. Ver Histórico')
+        print('3. Sair')
+        print('-' * 30)
+        
+        opcao = i('Escolha uma opção: ', delay=0.02)
+        
+        if opcao == '1':
+            calcular_lucro()
+        elif opcao == '2':
+            ver_historico()
+        elif opcao == '3':
             clear()
-            p("Sistema finalizado. Históricos requisitados, salvos em 'historico_vendas.txt'.", delay=0.03)
+            p("Sistema finalizado. Até logo!", delay=0.03)
             break
+        else:
+            p("Opção inválida! Tente novamente.", delay=0.03)
+            time.sleep(1)
+
+
 
 if __name__ == '__main__':
     main()
