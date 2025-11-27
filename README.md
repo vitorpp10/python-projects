@@ -38,7 +38,6 @@ python-projects/
 ├── python_phase_2/ (planned)
 └── python_phase_3/ (planned)
 
-text
 
 - `basic_projects/` – Short CLI scripts to practice logic, control flow, and data structures.  
 - `oop_projects/` – First steps with classes, objects, and small architectures.  
