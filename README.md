@@ -5,8 +5,8 @@ This repository contains a collection of Python projects organized into phases t
 
 ## Project Phases
 
-- **Phase 1** — This phase focuses on building a solid foundation in Python: from basic scripts and CLI apps to first steps in OOP and SQLite-based persistence.
-- **Phase 2** (coming soon) — More advanced projects that will include Object-Oriented Programming (OOP), file handling, and other intermediate topics.
+- **Phase 1** — Core Python fundamentals: terminal projects, basic algorithms, first OOP exercises, and an introductory SQLite CRUD.
+- **Phase 2** (coming soon) — Intermediate projects and automations, including Object-Oriented Programming (OOP), file handling, web scraping to CSV/Excel, and other data‑driven scripts.
 - **Phase 3** (planned) — Complex projects involving databases, web scraping, and automation.
 
 Each phase helps me deepen my Python skills progressively, with hands-on mini projects that challenge different programming concepts.
