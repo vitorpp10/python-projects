@@ -5,7 +5,7 @@ This repository contains a collection of Python projects organized into phases t
 
 ## Project Phases
 
-- **Phase 1** — Basic projects focusing on fundamental Python concepts like loops, conditionals, and simple algorithms.
+- **Phase 1** — This phase focuses on building a solid foundation in Python: from basic scripts and CLI apps to first steps in OOP and SQLite-based persistence.
 - **Phase 2** (coming soon) — More advanced projects that will include Object-Oriented Programming (OOP), file handling, and other intermediate topics.
 - **Phase 3** (planned) — Complex projects involving databases, web scraping, and automation.
 
