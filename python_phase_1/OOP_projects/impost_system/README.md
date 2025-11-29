@@ -4,11 +4,6 @@ A mini-project in Python focused on the practical application of Polymorphism an
 
 It simulates a product registration system that calculates taxes differently for each category. </p>
 
-<p align="center">   
-<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />   <img src="https://img.shields.io/badge/Paradigm-OOP-purple?style=for-the-badge" />   
-<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />   <img src="https://img.shields.io/badge/Focus-Polymorphism-orange?style=for-the-badge" /> 
-</p>
-
 ---
 
 ## Project Structure
@@ -90,11 +85,3 @@ def processar_imposto(produto: Produto):
 
 These mini-projects represent my **Phase 1 of learning Python** — a stage focused on logic, algorithms, and real-world problem-solving.  
 Each one is a step toward becoming a **proficient and creative Python developer**.
-
----
-
-<p align="center"><i>“Small progress is still progress.”</i></p>
-
----
-
-<p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>
