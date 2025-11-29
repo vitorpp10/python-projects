@@ -5,13 +5,6 @@
   From algorithms to small utilities — every line of code here represents progress. 
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" />
-</p>
-
 ---
 
 ### 1. `account.py` — Account 
@@ -171,11 +164,3 @@ Pressione ENTER para voltar ao menu...
 
 These mini-projects represent my **Phase 1 of learning Python** — a stage focused on logic, algorithms, and real-world problem-solving.  
 Each one is a step toward becoming a **proficient and creative Python developer**.
-
----
-
-<p align="center"><i>“Every small project builds a big foundation.”</i></p>
-
----
-
-<p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p>
