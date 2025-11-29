@@ -5,13 +5,6 @@
   From banking systems to tax calculators — each project applies abstraction, polymorphism, and clean design.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Phase-2-lightgrey?style=for-the-badge" />
-</p>
-
 ---
 
 ## OOP Projects Overview
@@ -58,9 +51,3 @@ Feel free to connect and follow my progress!
 |-----------|------|
 | **LinkedIn** | https://www.linkedin.com/in/vitor-de-padua/ |
 | **Email** | vitorprofissionalpp10@gmail.com |
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" />
-</p>
