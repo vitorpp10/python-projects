@@ -19,7 +19,7 @@
 - **Phase 1 – Foundations**  
   Core Python fundamentals: terminal projects, basic algorithms, first OOP exercises, and an introductory SQLite CRUD.
 
-- **Phase 2 – Intermediate & Automation** _(coming soon)_  
+- **Phase 2 – Intermediate & Automation** 
   Intermediate projects and automations, including Object-Oriented Programming (OOP), file handling, web scraping to CSV/Excel, and other data‑driven scripts.
 
 - **Phase 3 – Full Applications** _(planned)_  
@@ -35,14 +35,18 @@ python-projects/
 │ ├── oop_projects/
 │ ├── sqlite_projects/
 │ └── README.md
-├── python_phase_2/ (planned)
+├── python_phase_2/ 
+│ ├── dragon_quotes/
 └── python_phase_3/ (planned)
 
+### Phase 1:
+  - `basic_projects/` – Short CLI scripts to practice logic, control flow, and data structures.  
+  - `oop_projects/` – First steps with classes, objects, and small architectures.  
+  - `sqlite_projects/` – Simple CRUD in the terminal using Python + SQLite for persistence.
 
-- `basic_projects/` – Short CLI scripts to practice logic, control flow, and data structures.  
-- `oop_projects/` – First steps with classes, objects, and small architectures.  
-- `sqlite_projects/` – Simple CRUD in the terminal using Python + SQLite for persistence.
-
+### Phase 2:
+  - `dragon_quotes/` - Main Python script. It handles HTTP requests, HTML parsing, and the interactive loop that displays the menu, processes user input, and manages page navigation.
+    
 ---
 
 ## How to Explore
