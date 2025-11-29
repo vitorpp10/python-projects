@@ -5,14 +5,6 @@
   From algorithms to small utilities — every line of code here represents progress. 
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" />
-</p>
-
-
 ---
 
 ## Mini Projects Overview
@@ -88,12 +80,6 @@ It calculates word count, character count, longest word, and letter frequency, u
 These mini-projects represent my **Phase 1 of learning Python** — a stage focused on logic, algorithms, and real-world problem-solving.  
 Each one is a step toward becoming a **proficient and creative Python developer**.
 
----
-
-<p align="center"><i>“Every small project builds a big foundation.”</i></p>
-
----
-
 ## Connect
 
 This project is part of my **Computer Science learning journey**.  
@@ -103,9 +89,3 @@ Feel free to connect and follow my progress!
 |-----------|------|
 | **LinkedIn** | [https://www.linkedin.com/in/vitor-de-padua/](https://www.linkedin.com/in/vitor-de-padua/) |
 | **Email** | [vitorprofissionalpp10@gmail.com](mailto:vitorprofissionalpp10@gmail.com) |
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" />
-</p>
