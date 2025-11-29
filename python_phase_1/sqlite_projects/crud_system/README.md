@@ -5,13 +5,6 @@
   Focused on understanding backend logic, modular structure, and database interaction in a CLI environment.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" />
-</p>
-
 ---
 
 ### 1. `main.py` — User Menu Interface
@@ -139,11 +132,3 @@ Saindo...
 
 This mini project represents Phase 1 of my Python learning journey — focused on logic, database handling, and system structure at the command-line level.
 It serves as a foundation for future studies involving APIs, GUIs, and web development.
-
----
-
-<p align="center"><i>“Small projects build great developer stories.”</i></p>
-
----
-
-<p align="center" width="100%"> <img src="https://img.shields.io/badge/Made_with❤️_by-Vitor_de_Padua-blueviolet?style=for-the-badge" /> </p> ```
