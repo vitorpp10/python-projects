@@ -45,7 +45,8 @@ python-projects/
   - `sqlite_projects/` – Simple CRUD in the terminal using Python + SQLite for persistence.
 
 ### Phase 2:
-  - `dragon_quotes/` - Main Python script. It handles HTTP requests, HTML parsing, and the interactive loop that displays the menu, processes user input, and manages page navigation.
+  - `web_scraping/` - Examples involving HTTP requests and HTML parsing using libraries like requests and BeautifulSoup.
+The goal is to experiment with different scraping techniques and data extraction flows.
     
 ---
 
