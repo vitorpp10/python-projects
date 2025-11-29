@@ -5,13 +5,6 @@
   From algorithms to small utilities — every line of code here represents progress. 
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/Editor-VS_Code-0078D4?style=for-the-badge&logo=visualstudiocode" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Phase-1-lightgrey?style=for-the-badge" />
-</p>
-
 ---
 
 ## About this Repository
@@ -28,19 +21,19 @@ It’s designed for:
 
 ## Tracks
 
-### 🔹 Basic Projects  
+### Basic Projects  
 Short, foundational scripts to practice:  
 - Logic and control flow  
 - User input/output  
 - Core data structures (lists, dictionaries, etc.)  
 
-### 🔸 OOP Projects  
+### OOP Projects  
 Intermediate exercises to explore:  
 - Classes and objects  
 - Encapsulation and clean architecture  
 - Reusability and scalability in design
 
-### 🔺 SQLites Projects
+### SQLites Projects
 A practical, beginner-friendly command-line project to practice:
 - Building a simple employee manager (CRUD: Create, Read, Update, Delete)
 - Using Python with SQLite for persistent storage
@@ -131,7 +124,3 @@ python basic_projects/list_market_2_0.py
 | **Programming** | Procedural Programming, OOP, Data Structures, CLI I/O |
 | **Environment** | Virtual env (venv) |
 | **Planned** | pytest, pylint, SQL (SQLite/PostgreSQL), packaging |
-
----
-
-<p align="center">💡 <i>“Small, consistent steps — building strong Python fundamentals.”</i></p>
