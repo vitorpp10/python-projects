@@ -1,4 +1,4 @@
-<h1 align="center">🐉 Python Projects</h1>
+<h1 align="center"> Python Projects</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -68,5 +68,3 @@ Feel free to reach out, give feedback, or suggest new mini‑projects:
 
 - LinkedIn: [vitor-de-padua](https://www.linkedin.com/in/vitor-de-padua/)  
 - Email: [vitorprofissionalpp10@gmail.com](mailto:vitorprofissionalpp10@gmail.com)
-
-> 💡 _Small, consistent steps — building strong Python fundamentals._
