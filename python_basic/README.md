@@ -1,4 +1,4 @@
-<h1 align="center"> Python Projects — Phase 1</h1>
+<h1 align="center"> Python Projects — Basics</h1>
 
 <p align="center">
   A collection of <b>Python mini-projects</b> built during my Computer Science learning journey.<br>
@@ -112,7 +112,7 @@ python basic_projects/list_market_2_0.py
 **Learning Status**:
 
 - Currently in continuous practice and exploration, actively improving through feedback and iteration.
-- Phase 1 exists to demonstrate early progress, while building a foundation for more advanced, intermediate work.
+- Basics exists to demonstrate early progress, while building a foundation for more advanced, intermediate work.
 
 ---
 
