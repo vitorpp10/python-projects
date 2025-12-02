@@ -1,4 +1,4 @@
-# Python Phase 2 — Dragon Find Quotes
+# Python Intermediate — Dragon Find Quotes
 
 This project is part of my second–semester learning path in Computer Science, focusing on practical web scraping and terminal interaction.  
 The goal is to build confidence with HTTP requests, HTML parsing, CLI workflows, and defensive programming through a real, functioning tool.

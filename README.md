@@ -16,13 +16,13 @@
 
 > Each phase reflects a step in my learning journey — from fundamentals to real-world apps.
 
-- **Phase 1 – Foundations**  
+- **python_basics – Foundations**  
   Core Python fundamentals: terminal projects, basic algorithms, first OOP exercises, and an introductory SQLite CRUD.
 
-- **Phase 2 – Intermediate & Automation** 
+- **python_intermediate – Intermediate & Automation** 
   Intermediate projects and automations, including Object-Oriented Programming (OOP), file handling, web scraping to CSV/Excel, and other data‑driven scripts.
 
-- **Phase 3 – Full Applications** _(planned)_  
+- **python_hard – Full Applications** _(planned)_  
   Complex projects involving databases, web scraping, and automation-focused solutions.
 
 ---
@@ -39,12 +39,12 @@ python-projects/
 │ ├── dragon_quotes/
 └── python_phase_3/ (planned)
 
-### Phase 1:
+### python_basics:
   - `basic_projects/` – Short CLI scripts to practice logic, control flow, and data structures.  
   - `oop_projects/` – First steps with classes, objects, and small architectures.  
   - `sqlite_projects/` – Simple CRUD in the terminal using Python + SQLite for persistence.
 
-### Phase 2:
+### python_intermediate:
   - `web_scraping/` - Examples involving HTTP requests and HTML parsing using libraries like requests and BeautifulSoup.
 The goal is to experiment with different scraping techniques and data extraction flows.
     
@@ -52,7 +52,7 @@ The goal is to experiment with different scraping techniques and data extraction
 
 ## How to Explore
 
-1. Pick a phase that matches your curiosity (start with `python_phase_1/`).
+1. Pick a phase that matches your curiosity (start with `python_basics/`).
 2. Open the folder’s `README.md` to see what each mini‑project does.
 3. Run the scripts locally, tweak the code, and break things on purpose to learn more.
 

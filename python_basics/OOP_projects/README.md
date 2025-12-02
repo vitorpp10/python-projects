@@ -1,4 +1,4 @@
-<h1 align="center"> Python OOP Projects — Phase 1</h1>
+<h1 align="center"> Python OOP Projects — basics</h1>
 
 <p align="center">
   A collection of <b>Object-Oriented Python projects</b> built to deepen my understanding of real OOP principles.<br>
@@ -33,7 +33,7 @@ Built to practice abstraction, polymorphic behavior, and clean OOP architecture 
 
 ## Goal
 
-These projects represent my **Phase 1 of learning Python**, focused on mastering Object-Oriented Programming through practical, real-world scenarios.  
+These projects represent my **basics of learning Python**, focused on mastering Object-Oriented Programming through practical, real-world scenarios.  
 Each one brings me closer to becoming a **skilled and well-structured Python developer**.
 
 ---

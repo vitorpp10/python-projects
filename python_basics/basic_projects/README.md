@@ -1,4 +1,4 @@
-<h1 align="center"> Python Projects — Phase 1</h1>
+<h1 align="center"> Python Projects — basics</h1>
 
 <p align="center">
   A collection of <b>Python mini-projects</b> built during my Computer Science learning journey.<br>
@@ -77,7 +77,7 @@ It calculates word count, character count, longest word, and letter frequency, u
 
 ## Goal
 
-These mini-projects represent my **Phase 1 of learning Python** — a stage focused on logic, algorithms, and real-world problem-solving.  
+These mini-projects represent my **basics of learning Python** — a stage focused on logic, algorithms, and real-world problem-solving.  
 Each one is a step toward becoming a **proficient and creative Python developer**.
 
 ## Connect

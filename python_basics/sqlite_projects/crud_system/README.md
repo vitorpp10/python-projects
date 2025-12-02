@@ -1,4 +1,4 @@
-<h1 align="center"> Mini-Crud-Employees — Phase 1 </h1>
+<h1 align="center"> Mini-Crud-Employees — basics </h1>
 
 <p align="center">
   A basic <b>CRUD (Create, Read, Update, Delete)</b> project built with Python and SQLite.<br>
@@ -130,5 +130,5 @@ Saindo...
 
 ## Goal
 
-This mini project represents Phase 1 of my Python learning journey — focused on logic, database handling, and system structure at the command-line level.
+This mini project represents basics of my Python learning journey — focused on logic, database handling, and system structure at the command-line level.
 It serves as a foundation for future studies involving APIs, GUIs, and web development.
