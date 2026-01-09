@@ -1,15 +1,5 @@
 # python projects
 
-<p align="center">
-  <img src="https://img.shields.io/badge/python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/status-learning_in_public-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/focus-algorithms_·_oop_·_automation-ff69b4?style=for-the-badge" />
-</p>
-
-<p align="center">
-  a growing playground of python projects, from terminal scripts to full applications.
-</p>
-
 ---
 
 ## project phases
